@@ -199,7 +199,7 @@ sidebar:
     class: 'fab fa-zhihu fa-fw'
   nav:
   - title: '<i class="fas fa-home fa-fw"></i> 首页'
-    href:
+    href: /menggeyang
   - title: '<i class="fab fa-readme fa-fw"></i> 关于'
     href: /menggeyang/about
   - title: '<i class="fas fa-comments fa-fw"></i> 留言'
