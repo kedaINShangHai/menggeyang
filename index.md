@@ -16,7 +16,7 @@ title: 今、情热が岚になって
 
 {% endfor %}
 
-- [更多…](/archive)
+- [更多…](/menggeyang/archive)
 
 {% for tag in site.index.showtag %}
 
