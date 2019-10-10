@@ -3,10 +3,10 @@ kramdown:
   input: GFM # Github Flavored Markdown
   math_engine: katex # 防止行间公式渲染错误
 permalink: /menggeyang/posts/:categories/:title # 博文目录
-baseurl: "/menggeyang" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
+baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
 
 title: mengge-yang
-url: https://kedainshanghai.github.io
+url: https://kedainshanghai.github.io/
 author: mengge yang
 
 head: # 删改前确定知道自己在做什么
@@ -295,8 +295,8 @@ valine:
 
 page404:
   search_children: # 腾讯公益
-    enable: true
+    enable: false
     src: //qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js
     charset: utf-8
-    homePageUrl: '/'
+    homePageUrl: '/menggeyang'
     homePageName: 回到我的主页
