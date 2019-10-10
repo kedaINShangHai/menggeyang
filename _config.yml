@@ -3,10 +3,10 @@ kramdown:
   input: GFM # Github Flavored Markdown
   math_engine: katex # 防止行间公式渲染错误
 permalink: /posts/:categories/:title # 博文目录
-baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
+baseurl: "/menggeyang" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
 
 title: mengge-yang
-url: https://kedainshanghai.github.io/menggeyang
+url: https://kedainshanghai.github.io
 author: mengge yang
 
 head: # 删改前确定知道自己在做什么
@@ -106,9 +106,9 @@ head: # 删改前确定知道自己在做什么
     value: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.css # 在https://fontawesome.com/icons 查看支持的图标
 
 body:
-  theme-base: theme-base-09 # 可选的值08~0f
+  theme-base: theme-base-0A # 可选的值08~0f
   layout-reverse: false # 开启后sidebar在右边，反之左边
-  sidebar-overlay: true # 开启后正文不随sidebar移动而移动
+  sidebar-overlay: false # 开启后正文不随sidebar移动而移动
 
 script: # 需要在正文后调用的脚本或者插件的autoloader
 - var:
