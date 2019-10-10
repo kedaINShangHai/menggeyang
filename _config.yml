@@ -3,7 +3,7 @@ kramdown:
   input: GFM # Github Flavored Markdown
   math_engine: katex # 防止行间公式渲染错误
 permalink: /menggeyang/posts/:categories/:title # 博文目录
-baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
+baseurl: "/menggeyang" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
 
 title: mengge-yang
 url: https://kedainshanghai.github.io
@@ -201,13 +201,13 @@ sidebar:
   - title: '<i class="fas fa-home fa-fw"></i> 首页'
     href:
   - title: '<i class="fab fa-readme fa-fw"></i> 关于'
-    href: /about
+    href: /menggeyang/about
   - title: '<i class="fas fa-comments fa-fw"></i> 留言'
-    href: /comments
+    href: /menggeyang/comments
   - title: '<i class="fas fa-tags fa-fw"></i> 标签'
-    href: /tags
+    href: /menggeyang/tags
   - title: '<i class="fas fa-archive fa-fw"></i> 归档'
-    href: /archive
+    href: /menggeyang/archive
   simple_jekyll_search:
     enable: true
     autoloader: /public/simple-jekyll-search/autoloader.js
